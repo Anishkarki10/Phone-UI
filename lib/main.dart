@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             appBarTheme: AppBarThemeData(backgroundColor: Colors.blue)
         ),
-        home : SpotifyPage()
+        home : ProfileScreen()
     );
   }
 }

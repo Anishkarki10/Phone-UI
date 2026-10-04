@@ -70,16 +70,16 @@ class SpotifyPage extends StatelessWidget {
 
                   // LANA DEL REY
                   _artist(
-                    'Lana Del Rey',
-                    'assets/images/lana.jpeg',
+                    'Rey',
+                    'assets/images/marvin.jpeg',
                   ),
 
                   const SizedBox(width: 30),
 
                   // MARVIN GAYE
                   _artist(
-                    'Marvin Gaye',
-                    'assets/images/marvin.jpeg',
+                    'Unish Tahap Gaye',
+                    'assets/images/lana.jpeg',
                   ),
                 ],
               ),

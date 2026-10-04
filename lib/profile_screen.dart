@@ -76,10 +76,64 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ],
               )
             ],
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Expanded(
+                  flex: 2,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                      foregroundColor: Colors.white
+                    ),
+
+                      onPressed: (){}, child: Text('Follow')),
+                ),SizedBox(width: 10,),
+
+                Expanded(
+                  flex: 2,
+                  child: OutlinedButton(
+                      style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black
+                      ),
+                      onPressed: (){}, child: Text('Message')),
+                ),
+
+                Expanded(
+                  flex: 2,
+                  child: OutlinedButton(
+                      style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black
+                      ),
+                      onPressed: (){}, child: Text('Email')),
+                ),
+                Expanded(
+                  flex: 1,
+                  child: OutlinedButton(
+                      style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black
+                      ),
+                      onPressed: (){}, child: Icon(Icons.keyboard_arrow_down)),
+                )
+              ],
+
+
+            ),
           )
+
+
+
 
         ],
       ),
+
     );
     return const Placeholder();
   }
